@@ -1,5 +1,4 @@
-FROM ubuntu:xenial
-MAINTAINER Patrick Oberdorf "patrick@oberdorf.net"
+FROM resin/rpi-raspbian:stretch
 
 RUN apt-get update && apt-get install -y python \
 	locales \
